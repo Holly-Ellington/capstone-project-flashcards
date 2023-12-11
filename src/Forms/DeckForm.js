@@ -1,6 +1,8 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 
+/// FormDeck Component = Renders a form for creating or editing decks.
+
 function FormDeck({ existingDeck, handleFormChange, handleSubmit }) {
    const history = useHistory();
 
