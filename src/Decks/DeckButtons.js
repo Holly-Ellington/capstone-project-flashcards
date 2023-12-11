@@ -35,7 +35,7 @@ function DeckButtons({ id, handleDelete }) {
         </Link>
       );
     }
-
+                   /// study button below is now green
   return (
     <div
       className="btn-toolbar justify-content-between"
