@@ -10,6 +10,7 @@ function CardEdit() {
   const history = useHistory();
   const { deckId, cardId } = useParams();
 
+  // Resetting initial state for flash card and deck
   const cardReset = {
     id: cardId,
     front: "",
@@ -23,9 +24,12 @@ function CardEdit() {
     description: "",
   };
 
+   // State to hold flash deck and flash card data
   const [flashDeck, setFlashDeck] = useState(deckReset);
   const [flashCard, setFlashCard] = useState(cardReset);
 
+  // Fetching deck and card data on component 
+ 
   useEffect(() => {
     async function getFlashDeck() {
       try {
