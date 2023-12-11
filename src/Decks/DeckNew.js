@@ -43,6 +43,7 @@ history.push(`/decks/${response.id}`); // updated this line to correct error
     </nav>
   );
 
+            /// creating or editing a deck + FormDeck component for managing deck-related form input  
   return (
     <div>
       {breadcrumb}
