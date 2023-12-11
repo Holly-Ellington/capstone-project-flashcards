@@ -26,8 +26,8 @@ function DeckNew() {
       name: newDeck.name,
       description: newDeck.description,
     });
-    const newFlashDeck = await response.json();
-    history.push(`/decks/${newFlashDeck.id}`);
+ 
+history.push(`/decks/${response.id}`); // updated this line to correct error  
   }
 
   const breadcrumb = (
