@@ -8,7 +8,7 @@ function DeckButtons({ id, handleDelete }) {
   let buttonEdit = null;
   let buttonAddCards = null;
   
- /// the edit button style within the deck  
+ /// the edit button style within the deck, edit button is now navy
   
   if (deckId) {
     buttonEdit = (
