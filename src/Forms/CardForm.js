@@ -3,9 +3,13 @@ import { useHistory } from "react-router-dom";
 
 function FormCard({ flashCard, handleFormChange, handleSubmit }) {
   
-  /// TODOs: useHisotry here
+  ///FormCard Component = Renders a form for creating or editing flash cards.
+
 
   const history = useHistory();
+
+// Determine button labels based on whether the flashCard has an ID
+
   const backButton = flashCard.id ? "Cancel" : "Done";
   const nextButton = flashCard.id ? "Submit" : "Save";
 
