@@ -7,7 +7,9 @@ function DeckButtons({ id, handleDelete }) {
   let buttonView = null;
   let buttonEdit = null;
   let buttonAddCards = null;
-
+  
+ /// the edit button style within the deck  
+  
   if (deckId) {
     buttonEdit = (
       <Link to={`/decks/${deckId}/edit`}>
