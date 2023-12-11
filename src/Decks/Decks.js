@@ -49,6 +49,7 @@ function Decks() {
     ));
   };
 
+/// the routes for creating a new deck
   return (
     <div className="container" style={{ maxWidth: "800px", paddingBottom: "20px" }}>
       <Switch>
